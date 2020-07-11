@@ -1,0 +1,22 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    background: yellow;
+}
+
+.col-md-6 {
+    padding: 0px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid {
+    background: red;
+    padding: 50px;
+
+}
