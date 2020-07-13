@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
 
 
@@ -21,46 +21,59 @@
 
   </head>
   <body>
-  
+    
     <!-- NAVBAR -->
-    <div class="container-fluid navbarBg">
-      <nav class="container">
+    <div class="firstScreen">
+      
+      <!-- NAVBAR -->
+      <div class="container-fluid navbarBg">
+        <nav class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-12 navbarTitleBg">
+              <a href=""><h2>Pierre Pariente</h2></a>
+            </div>
+            <div class="col-md-5 col-sm-0">
+            </div>
+            <div class="col-md-4 col-sm-12 navbarLinks">
+              <ul class="navLinks">
+                <li><a href="">About<span style="margin-left: 10px; margin-right: 10px">|</span></a></li>
+                <li><a href="">Portfolio<span style="margin-left: 10px; margin-right: 10px">|</span></a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- ROW #1 -->
+      <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-12 navbarTitleBg">
-            <a href=""><h2>Pierre Pariente</h2></a>
+          <div class="col-md-7 col-sm-12 containerForm">
+            <h1>Contact</h1><hr align="left">
+            <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput"><p class="HEADLINE">First and Last Name</p></label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Snow">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2"><p class="HEADLINE">Email</p></label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1"><p class="HEADLINE">Message</p></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary"><p class="HEADLINE">Submit</p></button>
+
+            </form>
           </div>
-          <div class="col-md-5 col-sm-0">
-          </div>
-          <div class="col-md-4 col-sm-12 navbarLinks">
-            <ul class="navLinks">
-              <li><a href="">About<span style="margin-left: 10px; margin-right: 10px">|</span></a></li>
-              <li><a href="">Portfolio<span style="margin-left: 10px; margin-right: 10px">|</span></a></li>
-              <li><a href="">Contact</a></li>
-            </ul>
-          </div>
+          <div class="col-md-5 col-sm-0"></div>
         </div>
-      </nav>
+      </div>
+
+
     </div>
 
-    <!-- ROW #1 -->
-    <div class="container firstScreen">
-      <div class="row">
-        <div class="col-md-8 containerForm">
-          <h1>Contact</h1><hr>
-          <form>
-            <div class="form-group">
-              <label for="formGroupExampleInput"><p>Name</p></label>
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-            </div>
-            <div class="form-group">
-              <label for="formGroupExampleInput2"><p>Email</p></label>
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-            </div>
-          </form>
-        </div>
-        <div class="col-md-4"></div>
-      </div>
-    </div>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
