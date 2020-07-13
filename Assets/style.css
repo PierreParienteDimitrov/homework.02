@@ -215,9 +215,12 @@ hr {
 
 /* ABOUT ME */
 
-.aboutMe {
-    background: red;
-}
+
+.aboutMe:fullscreen {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+  }
 
 .marginLeft {
     margin-left: 0px;
@@ -227,6 +230,15 @@ hr {
     float: left;
 }
 
-.floatLeft {
+
+.textWrap {
     float: left;
+    margin: 10px 30px 10px 0px;
+    width: 350px;
+    height: 275px;
+}
+
+.noPaddingMargin {
+    padding: 0px;
+    margin: 0px;
 }
