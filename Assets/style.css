@@ -1,6 +1,13 @@
 /* FONTS */
 h1 {
     font-family: 'Amiri', serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Amiri', serif;
     font-size: 24px;
     font-weight: 700;
     margin: 0px;
@@ -10,6 +17,14 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    margin: 0px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
 }
 
 
@@ -25,7 +40,7 @@ a {
     text-align: center;
 }
 
-.navbarTitleBg h1 {
+.navbarTitleBg h2 {
     color: white;
 }
 
@@ -36,17 +51,18 @@ a {
 .navLinks {
     text-decoration: none;
     list-style: none;
+    margin: 0px;
+    text-align: center;
 }
 
 .navLinks li {
     display: inline-block;
-    float: right;
-    margin-left: 40px;
 }
 
 .navLinks li a {
     color: hsl(0, 0%, 33%);
     text-decoration: none;
+    /* margin:0px 5px; */
 }
 
 
@@ -61,4 +77,9 @@ a {
 .containerForm {
     background: hsl(0, 0%, 94%);
     padding: 50px;
+}
+
+hr {
+    background-color:hsl(0, 0%, 33%);
+    height: 2px;
 }
