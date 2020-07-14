@@ -1,8 +1,13 @@
+# My Comments
+
+I recreated the responsive design with a few twists on the design. I used the media query so on an 'xs' screen the content takes up the entire screen. I also used media query to keep a consistant margin between the cards when they take the 12 columns. 
+
+
 # homework.02
 
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. I played around with the css properties and classes for the form. I did not manage to change the text color of the placeholder, just its opacity. I would appreciate some help there, I didn't really find a solution online. Other than that, I didn't upload real information. I do need to build my UX/UI designer portfolio so this is something that I will do in the next few weeks to months. But before spending time on real life design, I want to wait for us to study the flexbox system!
 
 
 ## Directions
