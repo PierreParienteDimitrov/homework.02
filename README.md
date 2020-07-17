@@ -9,6 +9,8 @@ GitHub Repository: https://github.com/PierreParienteDimitrov/portfolio
 
 # Screenshots
 
+![](Assets/Images/1_screenshot.png)
+
 
 # Description of program
 
