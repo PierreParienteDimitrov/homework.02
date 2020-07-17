@@ -13,6 +13,7 @@ GitHub Repository: https://github.com/PierreParienteDimitrov/portfolio
 ![](Assets/Images/2_screenshot.png)
 ![](Assets/Images/3_screenshot.png)
 ![](Assets/Images/4_screenshot.png)
+![](Assets/Images/5_screenshot.png)
 
 
 # Description of program
