@@ -1,9 +1,21 @@
-# My Comments
-
-I recreated the responsive design with a few twists on the design. I used the media query so on an 'xs' screen the content takes up the entire screen. I also used media query to keep a consistant margin between the cards when they take the 12 columns. 
+# MY COMMENTS
 
 
-# homework.02
+# Links
+
+Deployed app: https://pierreparientedimitrov.github.io/portfolio/
+
+GitHub Repository: https://github.com/PierreParienteDimitrov/portfolio
+
+# Screenshots
+
+
+# Description of program
+
+I built the template of my porfolio website. I used bootstrap's grid system for responsiveness. I used media queries so that on 'xs' screen the content takes up the entire screen.
+
+
+# INSTRUCTION PROVIDED
 
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
